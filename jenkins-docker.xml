@@ -27,12 +27,12 @@
     <Publish>
       <Port>
         <HostPort>8090</HostPort>
-        <ContainerPort>8090</ContainerPort>
+        <ContainerPort>8080</ContainerPort>
         <Protocol>tcp</Protocol>
       </Port>
       <Port>
-        <HostPort>4243</HostPort>
-        <ContainerPort>4243</ContainerPort>
+        <HostPort>50000</HostPort>
+        <ContainerPort>50000</ContainerPort>
         <Protocol>tcp</Protocol>
       </Port>
     </Publish>
@@ -62,7 +62,7 @@
   <Data>
     <Volume>
       <HostDir>/mnt/cache/appdata/config</HostDir>
-      <ContainerDir>/config</ContainerDir>
+      <ContainerDir>/var/jenkins_home</ContainerDir>
       <Mode>rw</Mode>
     </Volume>
   </Data>
