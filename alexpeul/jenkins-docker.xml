@@ -72,7 +72,7 @@
     </Volume>
   </Data>
   <WebUI>http://[IP]:[PORT:8090]/</WebUI>
-  <Icon>https://raw.githubusercontent.com/alexpeul/docker-templates/master/alexpeul/images/jenkins.png</Icon>
+  <Icon>https://raw.githubusercontent.com/alexpeul/docker-templates/master/alexpeul/images/jenkins.jpg</Icon>
   <DonateText>Enjoy</DonateText>
   <DonateLink></DonateLink>
   <DonateImg></DonateImg>
