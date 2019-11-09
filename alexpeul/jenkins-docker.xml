@@ -16,9 +16,9 @@
   Jenkins is an open source continuous integration tool written in Java. The project was forked from Hudson after a dispute with Oracle. Jenkins provides continuous integration services for software development. It is a server-based system running in a servlet container such as Apache Tomcat.
   </Overview>
   <Support>http://lime-technology.com/forum/index.php</Support>
-  <Registry>https://registry.hub.docker.com/u/alexpeul/jenkins-docker/</Registry>
-  <GitHub>https://github.com/alexpeul/jenkins-docker</GitHub>
-  <Repository>alexpeul/jenkins-docker</Repository>
+  <Registry>https://registry.hub.docker.com/u/alexpeul/jenkins-docker-1/</Registry>
+  <GitHub>https://github.com/alexpeul/jenkins-docker-1</GitHub>
+  <Repository>alexpeul/jenkins-docker-1</Repository>
   <Project>https://jenkins-ci.org/</Project>
   <BindTime>true</BindTime>
   <Privileged>false</Privileged>
