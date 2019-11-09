@@ -21,7 +21,7 @@
   <Repository>alexpeul/jenkins-docker</Repository>
   <Project>https://jenkins-ci.org/</Project>
   <BindTime>true</BindTime>
-  <Privileged>true</Privileged>
+  <Privileged>false</Privileged>
   <Networking>
     <Mode>bridge</Mode>
     <Publish>
