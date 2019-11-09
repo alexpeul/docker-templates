@@ -65,6 +65,11 @@
       <ContainerDir>/var/jenkins_home</ContainerDir>
       <Mode>rw</Mode>
     </Volume>
+    <Volume>
+      <HostDir>/var/run/docker.sock</HostDir>
+      <ContainerDir>/var/run/docker.sock</ContainerDir>
+      <Mode>rw</Mode>
+    </Volume>
   </Data>
   <WebUI>http://[IP]:[PORT:8090]/</WebUI>
   <Icon>https://raw.githubusercontent.com/alexpeul/docker-templates/master/alexpeul/images/jenkins.png</Icon>
